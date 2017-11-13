@@ -17,7 +17,7 @@
 
 	// in case of that the feature doesn't exist, emulate it's functionality
 	if ( !nativedatalist ) {
-		
+		console.log('emulate');
 		// emulate the two properties regarding the datalist and input elements
 		// list property / https://developer.mozilla.org/en/docs/Web/API/HTMLInputElement
 		( function( constructor ) {
